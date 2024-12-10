@@ -109,10 +109,10 @@ body {
 }
 
 .six .hat {
-  left: 41.5%;
   position: absolute;
-  /* transform: scale(0.1); */
-  top: -35%;
+  top: -35%; /* Anda bisa mengubah ini jika perlu */
+  left: 50%; /* Ubah nilai ini untuk mengatur posisi horizontal */
+  transform: translate(120% , 4%); /* Ubah nilai ini untuk memindahkan elemen */
   width: 80px;
 }
 
